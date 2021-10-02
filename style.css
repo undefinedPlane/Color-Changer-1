@@ -1,0 +1,57 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+#maingroup {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0.6em;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#colortxt {
+    text-align: center;
+    text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.colorbtn {
+    border-radius: 0.3em;
+    border: none;
+    background-color: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.2)
+    );
+    color: rgba(0, 0, 0, 0.7);
+    margin: 5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+    
+    font-weight: 800;
+    font-size: 0.8em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.colorbtn:hover {
+    background-color: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    color: rgba(0, 0, 0, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
